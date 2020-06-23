@@ -1,0 +1,8 @@
+var num=+prompt("Enter a number")
+var round=Math.round(num)
+var ceil= Math.ceil(num)
+var floor= Math.floor(num)
+document.write("Number: "+num+"<br>")
+document.write("Round off number: "+round+"<br>")
+document.write("Floor number: "+floor+"<br>")
+document.write("Ceil number: "+ceil+"<br>")
